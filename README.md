@@ -36,19 +36,18 @@ Text is encoded with variable length encoding, with more common letters and symb
 | fc | . |
 | fd | , |
 | fe | ' |
-| rest of table is | unfinished|
-| ff0 | (space) |
-| ff1 |
-| ff2 |
-| ff3 |
-| ff4 |
-| ff5 |
-| ff6 |
-| ff7 |
-| ff8 |
-| ff9 |
-| ffa |
-| ffb |
-| ffc |
-| ffd |
-| ffe |
+| ff0 | █ (missing character placeholder) |
+| ff1 | (new line) |
+| ff2 | ? |
+| ff3 | ! |
+| ff4 | 0 |
+| ff5 | 1 |
+| ff6 | 2 |
+| ff7 | 3 |
+| ff8 | 4 |
+| ff9 | 5 |
+| ffa | 6 |
+| ffb | 7 |
+| ffc | 8 |
+| ffd | 9 |
+| ffe | (tab/indent) |
